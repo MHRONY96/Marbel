@@ -1,0 +1,205 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width:320px) and (max-width: 575px) {
+
+  /* navbar css start  */
+  .logoText {
+    margin-left: 40%;
+  }
+
+  /* banner section Css start  */
+  .bannerContent h4 {
+    margin-left: 20%;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .bannerContent h5 {
+    font-size: 16px;
+    margin-left: 25%;
+    text-align: justify;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .bannerContent input {
+    margin-left: 45%;
+  }
+
+  /* Fetcher part css start  */
+  .feather_img {
+    margin-left: 40%;
+  }
+
+  .feather_img1 {
+    margin-left: 40%;
+  }
+
+  .feather_img2 {
+    margin-left: 40%;
+  }
+
+  .feather_img3 {
+    margin-left: 40%;
+  }
+
+  .feather_content {
+    text-align: center;
+  }
+
+  /* Quotation part css start  */
+  .quotationSection img {
+    position: absolute;
+    left: 50%;
+  }
+
+  .fontIcon {
+    display: none;
+  }
+
+  .fontIconContact {
+    display: none;
+  }
+
+  .fontTwitter {
+    display: none;
+  }
+
+  .fontTwitterContent {
+    display: none;
+  }
+
+  .getIn h4 {
+    display: none;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width:576px) and (max-width: 767px) {
+
+  /* navbar css start  */
+  .logoText {
+    margin-left: 40%;
+  }
+
+  /* banner section Css start  */
+  .bannerContent h4 {
+    margin-left: 20%;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .bannerContent h5 {
+    font-size: 16px;
+    margin-left: 25%;
+    text-align: justify;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .bannerContent input {
+    margin-left: 45%;
+  }
+
+  /* Fetcher part css start  */
+  .feather_img {
+    margin-left: 40%;
+  }
+
+  .feather_img1 {
+    margin-left: 40%;
+  }
+
+  .feather_img2 {
+    margin-left: 40%;
+  }
+
+  .feather_img3 {
+    margin-left: 40%;
+  }
+
+  .feather_content {
+    text-align: center;
+  }
+
+  .fontTwitter p:nth-last-child(1) {
+    margin-top: 50px;
+  }
+
+  .fontTwitter p:nth-last-child(2) {
+    margin-top: 50px;
+  }
+
+  .fontIcon ul li {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width:768px) and (max-width: 991px) {
+
+  /* navbar css start  */
+  .logoText {
+    margin-left: 40%;
+  }
+
+  /* banner section Css start  */
+  .bannerContent h4 {
+    margin-left: 35%;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .bannerContent h5 {
+    font-size: 16px;
+    margin-left: 40%;
+    text-align: justify;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .bannerContent input {
+    margin-left: 50%;
+  }
+
+  /* Fetcher part css start  */
+  .feather_img {
+    margin-left: 20%;
+  }
+
+  .feather_img1 {
+    margin-left: 20%;
+  }
+
+  .feather_img2 {
+    margin-left: 20%;
+  }
+
+  .feather_img3 {
+    margin-left: 20%;
+  }
+
+  .fontTwitter p:nth-last-child(2) {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .fontIcon ul li:nth-last-child(2) {
+    margin-top: 58px;
+  }
+
+  .fontIconContact ul li:nth-last-child(2) {
+    margin-top: 20px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width:992px) and (max-width: 1199px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (main-width:1200px) and (max-width: 1399px) {}
+
+/* XX-Large devices (larger desktops) */
+@media (main-width:1400px) {}
+
+/* No media query since the xxl breakpoint has no upper bound on its width */

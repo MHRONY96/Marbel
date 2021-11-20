@@ -1,0 +1,345 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: 'RobotSlab';
+}
+
+.navbar-brand {
+  font-family: 'occur';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.logoText {
+  margin-left: 450px;
+}
+
+#navBarCollapse .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+#navBarCollapse .navbar-nav .nav-item .nav-link:hover {
+  color: #34c1a6;
+}
+
+/* banner part css start */
+.banner {
+  background-image: url(../img/banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.bannerContent {
+  position: absolute;
+  color: #fff;
+}
+
+.bannerContent h4 {
+  font-family: 'RobotoSlab', 'occur';
+  margin-top: 120px;
+  margin-left: 150px;
+  font-size: 40px;
+  font-weight: bold;
+  font-weight: 700;
+}
+
+.bannerContent h5 {
+  color: #a8a8a8;
+  font-size: 32px;
+  font-family: 'RobotoSlab', 'occur';
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  font-weight: 700;
+}
+
+.bannerContent input {
+  margin-left: 46%;
+  background-color: #3f8dbf;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* banner part css end */
+
+/* fetcher part css start  */
+#fetcher {
+  padding: 59px 0px 59px 0px;
+}
+
+.feather_img {
+  margin-left: 80px;
+  height: 100px;
+  width: 100px;
+  background-color: #9d9abf;
+  border-radius: 50%;
+  position: relative;
+}
+
+.feather_img img {
+  content: "";
+  position: absolute;
+  top: 32%;
+  left: 35%;
+}
+
+.feather_img1 {
+  margin-left: 80px;
+  height: 100px;
+  width: 100px;
+  background-color: #d2514b;
+  border-radius: 50%;
+  position: relative;
+}
+
+.feather_img1 img {
+  content: "";
+  position: absolute;
+  top: 32%;
+  left: 35%;
+}
+
+.feather_img2 {
+  margin-left: 80px;
+  height: 100px;
+  width: 100px;
+  background-color: #66a3c6;
+  border-radius: 50%;
+  position: relative;
+}
+
+.feather_img2 img {
+  content: "";
+  position: absolute;
+  top: 32%;
+  left: 32%;
+}
+
+.feather_img3 {
+  margin-left: 80px;
+  height: 100px;
+  width: 100px;
+  background-color: #e8c04f;
+  border-radius: 50%;
+  position: relative;
+}
+
+.feather_img3 img {
+  content: "";
+  position: absolute;
+  top: 38%;
+  left: 32%;
+}
+
+.feather_content {
+  margin-top: 25px;
+}
+
+.feather_content h4 {
+  font-family: 'RobotSlab';
+  font-weight: 500;
+}
+
+.feather_content p {
+  font-family: 'RobotSlab';
+  font-size: 14px;
+}
+
+/* fetcher part css end */
+
+/* works part css start  */
+#works {
+  padding: 59px 0px 59px 0px;
+}
+
+.commHead h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 29px;
+}
+
+.works_item img {
+  margin-bottom: 30px;
+}
+
+.worksContent h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.worksContent h6 {
+  font-size: 13px;
+}
+
+.worksContent p {
+  margin-top: 29px;
+  font-size: 14px;
+}
+
+/* works part css end */
+
+/* quotation part css start */
+.quotation {
+  background-color: #efefef;
+  padding: 45px 0px 45px 0px;
+}
+
+.quotationSection {
+  position: relative;
+}
+
+.quotationSection img {
+  position: absolute;
+  left: 50%;
+}
+
+.quotation_content {
+  position: relative;
+  margin-top: 50px;
+}
+
+.quotation_content p {
+  font-family: 'RobotSlab';
+  font-size: 20px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-weight: bold;
+  color: #a1a1a1;
+}
+
+#footerSection {
+  background-color: black;
+  color: white;
+  padding: 49px 0px 49px 0px;
+}
+
+/* quotation part css end */
+
+/* footer part css Start */
+.getIn h4 {
+  color: #6c6c6c;
+  text-transform: uppercase;
+  font-family: 'RobotoCondensed';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.getIn p {
+  color: white;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.fontIcon ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.fontIcon ul li {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.fontIcon ul li a {
+  color: #a89574;
+}
+
+.fontIconContact ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.fontIconContact ul li {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.fontIconContact ul li a {
+  color: white;
+}
+
+.fontTwitter {
+  margin-top: 15px;
+  color: #a89574;
+}
+
+.fontTwitter p:nth-last-child(1) {
+  margin-top: 100px;
+}
+
+.fontTwitter p:nth-last-child(2) {
+  margin-top: 100px;
+}
+
+.fontTwitterContent {
+  margin-top: 15px;
+  line-height: 25px;
+}
+
+.fontTwitterContent p {
+  text-align: justify;
+}
+
+.fontTwitterContent p:nth-last-child(1) {
+  margin-top: 25px;
+}
+
+.fontTwitterContent p:nth-last-child(2) {
+  margin-top: 25px;
+}
+
+.popularPost h4 {
+  color: #6c6c6c;
+  text-transform: uppercase;
+  font-family: 'RobotoCondensed';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.popularPost h3 {
+  font-size: 12px;
+  line-height: 6px;
+}
+
+.popularPost p {
+  color: white;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 24px;
+}
+
+.popularPostH {
+  margin-top: 47px;
+}
+
+.aboutUs {
+  margin-top: 70px;
+}
+
+/* footer part css end */
